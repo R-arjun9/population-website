@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Data - Global Population Stats</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for charts -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Population Data</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="population.html">Population Data</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="#data-overview">Data Overview</a></li>
+                <li><a href="#global-trends">Global Trends</a></li>
+                <li><a href="#demographics">Demographics</a></li>
+                <li><a href="#future-projections">Future Projections</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="data-overview">
+            <h2>Population Data Overview</h2>
+            <p>This page provides an in-depth view of the world’s population data, including historical growth trends, demographic information, and projections for the future.</p>
+        </section>
+
+        <section id="global-trends">
+            <h2>Global Population Growth Trends</h2>
+            <p>Below is a chart illustrating the global population growth trends over the past century. You can explore the data interactively using the chart.</p>
+            <div class="chart-container">
+                <canvas id="growthTrendsChart"></canvas> <!-- Chart.js chart -->
+            </div>
+        </section>
+
+        <section id="demographics">
+            <h2>Global Population Demographics</h2>
+            <p>This section highlights key demographic data such as the distribution of population by age, gender, and continent.</p>
+            <div class="chart-container">
+                <canvas id="demographicsChart"></canvas> <!-- Demographics chart -->
+            </div>
+        </section>
+
+        <section id="future-projections">
+            <h2>Future Population Projections</h2>
+            <p>Explore projections for the future of the global population, including estimates for growth in the next 50 years.</p>
+            <div class="chart-container">
+                <canvas id="futureProjectionsChart"></canvas> <!-- Future projections chart -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Global Population Stats. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

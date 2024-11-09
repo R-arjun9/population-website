@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Population Statistics</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js for charts -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Global Population Statistics</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="population.html">Population Data</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="overview">
+            <h2>Introduction</h2>
+            <p>The world population reached approximately 8 billion in 2024. Explore how population growth has evolved and its impact on the global landscape.</p>
+        </section>
+
+        <section id="growth-trends">
+            <h2>Global Population Growth Trends</h2>
+            <p>Population growth has fluctuated over time. Here’s how it has changed over the decades:</p>
+            <div class="chart-container">
+                <canvas id="populationGrowthChart"></canvas> <!-- Chart.js chart -->
+            </div>
+        </section>
+
+        <section id="demographics">
+            <h2>Global Population Demographics</h2>
+            <p>Global demographics are continually shifting. The population’s age, gender, and ethnic distribution will shape our future.</p>
+        </section>
+
+        <section id="future-projections">
+            <h2>Future Projections</h2>
+            <p>Here are the projected population growth trends for the next 50 years:</p>
+            <div class="chart-container">
+                <canvas id="futureProjectionsChart"></canvas> <!-- Future projections chart -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Global Population Data. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
